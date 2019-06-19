@@ -112,7 +112,7 @@ def calculate_base_metrics(infile, truth):
                 for i in range(1, length):
                     query_id = index[i]
                     
-                    # We dont need toi check if the query_id is in the query_level_base_metrics
+                    # We dont need to check if the query_id is in the query_level_base_metrics
                     # as (query_id, doc_id) in truth will take care of that.
                     if (query_id, doc_id) in truth:
                         if (query_id, doc_id) not in predicted_keys:

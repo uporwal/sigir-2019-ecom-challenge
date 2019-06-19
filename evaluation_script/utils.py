@@ -73,14 +73,3 @@ class Metrics():
                 f1 = 2 * (p * r) / (p + r)
             self.f1 = f1
 
-    def clear(self):
-        self.tp = 0
-        self.fp = 0
-        self.tn = 0
-        self.fn = 0
-        self.precision = 0
-        self.recall = 0
-        self.fpr = 0
-        self.accuracy = 0
-        self.f1 = 0
-
